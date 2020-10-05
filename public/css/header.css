@@ -1,0 +1,129 @@
+                 
+                
+                 .nav-bar{
+                    width: 100%;
+                    background:#2c3e50;
+                    height: 92px;
+                    padding:border-box;
+                    border-bottom: 1px solid #1a252f;
+                    top: 0;
+                    width: 100%;
+                    z-index: 100;
+                    position: fixed;
+                    left: 0px;
+                    height: 55px;
+                  }
+                  .nav-bar ul{
+                    width:1300px;
+                    height: 100%;
+                    margin: 0 auto;
+                    list-style:none;
+                    display: block;
+
+
+
+
+
+
+
+                    font-weight: bold;  
+                    word-break:break:;-all;
+                    position: relative;
+                    word-spacing: 0px;
+                    
+                  }
+
+                  .nav-bar ul li{
+                    width: 12spx;
+                    float: left;
+                    text-align: center;
+                    padding: 15px 0;
+                    color:white;
+                    margin-right: 100px;
+                    cursor: pointer;
+                    transition: all 0.4s ease;
+                    font-size:  14px;
+
+                  }
+                    .nav-bar ul li:last-child{
+
+                      margin-right:;
+                    }
+
+                      .nav-bar ul li:hover{
+
+                        color:#18bc9c;
+                      }
+                      .nav-bar ul li:hover .mega-menu{
+                        color: #fff;
+
+                      }
+                      .nav-bar ul li .mega-menu p:hover{
+                        color: orange;
+
+
+                      }
+
+
+                      .header-banner{
+
+                        background: #18bc9c;
+                        width: 100%;
+                        height:auto;
+                      }
+                      .mega-menu{
+                        position: absolute;
+                        top: 55px;
+                        left: 0px;
+                        width: 1200px;
+                        height: 220px;
+                        background: #2c3e50;
+                        transition: all 0.10s ease;
+                        padding: 40px;
+                        box-sizing: border-box;
+                        visibility: hidden;
+                        opacity: 0;
+                        margin-left: 120px;
+                        z-index:100;
+
+
+                      }
+                      .inner-mega-menu{
+                        width: 24%;
+                        float: left;
+                        margin-right: 1%;
+
+
+                      }
+                      .inner-mega-menu:last-child{
+                        margin-right: 0%;
+
+                      }
+                        .inner-mega-menu p{
+                          padding: 10px 0;
+                          transition: all 0.4s ease;
+
+                        }
+                        .nav-bar ul li:hover .mega-menu{
+                          visibility: visible;
+                          opacity: 1;  
+
+                        }
+
+  
+
+
+.number{
+
+  margin-left:200px;
+}
+.resimt{
+
+  margin-top: -30px;
+}
+.contentdiv{
+
+
+  padding-top: 65px;
+}
+}
